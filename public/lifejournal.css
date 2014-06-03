@@ -26,6 +26,7 @@
     background-color: #A1CAF1;
     height: 700px;
     width: 70%;
+    
    
 }
 #login-left img{ display:block; height:100%; width:100%;}
@@ -36,7 +37,78 @@
     background-color: #F0F8FF;
     width: 30%;
     height: 700px;
+    line-height: 550px;
+    color: #5D8AA8;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+        
 }
+form {
+    
+    position: relative;
+    float: right;
+    background-color: #F0F8FF;
+    width: 30%;
+    height: 700px;
+    color: #5D8AA8;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+    line-height: 550px;
+
+}
+#userid {
+     width: 200px;
+     border-radius: 5px;
+     height: 25px;
+     font-family: sans-serif;
+     font-style: normal;
+     text-align: center;
+     font-weight: lighter;
+     font-size: 20px;
+     -moz-box-shadow:    inset 0 0 2px #5D8AA8;
+   -webkit-box-shadow: inset 0 0 2px #5D8AA8;
+   box-shadow:         inset 0 0 2px #5D8AA8;
+     
+}
+
+
+#password {
+     width: 200px;
+     border-radius: 5px;
+     height: 25px;
+     text-align: center;
+     font-family: sans-serif;
+     font-style: normal;
+     font-size: 20px;
+     font-weight: lighter;
+     -moz-box-shadow:    inset 0 0 2px #5D8AA8;
+   -webkit-box-shadow: inset 0 0 2pxx #5D8AA8;
+   box-shadow:         inset 0 0 2px #5D8AA8;
+}
+.form-element {
+    
+    margin-left: 30px;
+    line-height: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+#subbutton {
+    background-color: #5D8AA8;
+    width: 100px;
+    border-radius: 5px;
+    height: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    -moz-box-shadow:    inset 0 0 2px #5D8AA8;
+   -webkit-box-shadow: inset 0 0 2pxx #5D8AA8;
+   box-shadow:         inset 0 0 2px #5D8AA8;
+}
+
 #footer {
     position: relative;
     clear: both;
@@ -46,17 +118,10 @@
     height: 100px;
     margin-bottom: -10px;
     background-color: #F0F8FF;
+    color: #5D8AA8;
+    font-size: 20px;
+    font-family: cursive;
+    font-style: italic;
     
 }
-.form-element {
-    margin-bottom: 10px;
-    }
-    form {
-    border: #cccccc 1px solid;
-    padding: 20px;
-    margin-bottom: 10px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    }
 

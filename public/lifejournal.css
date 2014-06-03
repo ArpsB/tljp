@@ -1,0 +1,62 @@
+#header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    margin-top: -10px;
+    background-color: #F0F8FF;
+    height: 150px;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #5D8AA8;
+}
+#appname {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    color: #5D8AA8;
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+    
+}
+
+#login-left {
+    position: relative;
+    float: left;
+    background-color: #A1CAF1;
+    height: 700px;
+    width: 70%;
+   
+}
+#login-left img{ display:block; height:100%; width:100%;}
+
+#login-right {
+    position: relative;
+    float: right;
+    background-color: #F0F8FF;
+    width: 30%;
+    height: 700px;
+}
+#footer {
+    position: relative;
+    clear: both;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #5D8AA8;
+    height: 100px;
+    margin-bottom: -10px;
+    background-color: #F0F8FF;
+    
+}
+.form-element {
+    margin-bottom: 10px;
+    }
+    form {
+    border: #cccccc 1px solid;
+    padding: 20px;
+    margin-bottom: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    }
+

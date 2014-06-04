@@ -1,4 +1,4 @@
-#header {
+.login-header {
     z-index: 1;
     position: fixed;
     width: 100%;
@@ -8,6 +8,7 @@
     border-bottom-style: solid;
     border-bottom-width: 10px;
     border-bottom-color: #5D8AA8;
+    display:block;
 }
 #appname {
     text-align: center;
@@ -16,42 +17,24 @@
     color: #5D8AA8;
     font-size: 40px;
     font-family: cursive;
-    font-style: italic;
-    
+    font-style: italic; 
 }
-
 #login-left {
-    
     position: relative;
     float: left;
     background-color: #A1CAF1;
     height: 700px;
     width: 70%;
-    
-   
 }
-#login-left img{ display:block; height:100%; width:100%;}
+#login-left img{ display:block; height:100%; width:100%; }
 
-#login-right {
+#login-form {
+    top: 150px;
     position: relative;
     float: right;
     background-color: #F0F8FF;
     width: 30%;
-    height: 700px;
-    line-height: 550px;
-    color: #5D8AA8;
-    font-size: 30px;
-    font-family: cursive;
-    font-style: italic;
-        
-}
-form {
-   top: 145px;
-    position: relative;
-    float: right;
-    background-color: #F0F8FF;
-    width: 30%;
-    height: 700px;
+    height: 550px;
     color: #5D8AA8;
     font-size: 30px;
     font-family: cursive;
@@ -76,7 +59,7 @@ form {
 }
 
 
-#password {
+#textfield {
      width: 200px;
      border-radius: 5px;
      height: 25px;
@@ -92,11 +75,15 @@ form {
 .form-element {
     
     margin-left: 30px;
-    line-height: 1px;
+    line-height: 2px;
     border-radius: 5px;
     padding: 10px;
+    display: block;
     
     
+}
+label {
+    display: block;
 }
 #subbutton {
     background-color: #5D8AA8;
@@ -125,7 +112,7 @@ form {
    box-shadow:         inset 0 0 2px #5D8AA8;
     
 }
-#footer {
+.footer {
     position: relative;
     clear: both;
     border-top-style: solid;
@@ -140,4 +127,64 @@ form {
     font-style: italic;
     
 }
+/**/
+/*#form-signup {*/
+/*    top: 500px ;*/
+/*    background-color: #F0F8FF;*/
+/*    width: 50%;*/
+/*    height: 700px;*/
+/*    color: #5D8AA8;*/
+/*    font-size: 25px;*/
+/*    font-family: sans-serif;*/
+/*    font-style: normal;*/
+/*    line-height: normal;*/
+/*    float: right;*/
+/*    */
+/**/
+/*}*/
+/*====================================
+        Sign Up Screen
+=======================================*/
 
+
+#form-signup {
+    
+    position: relative;
+    float: right;
+    background-color: #F0F8FF;
+    width: 45%;
+    height: 700px;
+    color: #5D8AA8;
+    font-size: 20px;
+    line-height: normal; 
+}
+
+fieldset {
+    height: 550px;
+    margin-top: 150px;
+    width: 100%;
+    display: inline-block; 
+}
+label {
+    display: block;
+    width: 200px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#page-left {
+    
+    position: relative;
+    float: left;
+    background-color: #F0F8FF;
+    height: 700px;
+    width: 55%;
+    font-size: 20px;
+    
+}
+#page-left p {
+    margin-top: 200px;
+    margin-left: 10px;
+    font-family: fantasy;
+    
+}

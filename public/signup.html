@@ -1,0 +1,56 @@
+<!--Script to open Sign Up form -->
+<!DOCTYPE html>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="/dpd.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+<html>
+<head>
+    <title>SignUp</title>
+    <link rel="stylesheet" type="text/css" href="lifejournal.css">
+    <br>
+</head>
+<body>
+    <div class="login-header">
+	<p id="appname">LifeJournal</p>
+    </div>
+    <div id="page-left">
+        <p>Create a LifeJournal account. Please use the form on the right to register.
+        <br>
+            Once you register, use LifeJournal to record your life. Memories you will cherish and books and movies you'll remember.
+            Happy LifeJournaling!!
+        </p>
+    </div>    
+    <div class="group">
+        <form id="form-signup">
+        <fieldset>
+            <div class="form-element"> 
+                <label> First Name </label>
+                <input type="text" id="textfield" name="firstname" placeholder="First Name">
+            </div>
+            <div class="form-element">
+                <label>Last Name </label>
+                <input type="text" id="textfield" name="lastname" placeholder="Last Name">
+            </div>
+            <div class="form-element">
+                <label>Email </label>        
+                <input type="email" id="textfield" name="email" placeholder="Email">
+            </div>
+            <div class="form-element">
+                <label>Password</label>
+                <input type="password" id="textfield" name="password" placeholder="Password">
+            </div>
+            <div class="form-element">
+                <label>Confirm Password</label>
+                <input type="password" id="textfield" name="confirmpassword" placeholder="Confirm Password">
+            </div>
+	    <div class="form-element">
+                <button type="submit" id="signupbutton">Sign Up</button>
+            </div>
+            </fieldset>
+        </form>
+    </div>
+    
+    <div class="footer">About Us</div>
+</body>
+</html>
+

@@ -5,28 +5,28 @@
     <link rel="stylesheet" type="text/css" href="lifejournal.css">
 </head>
 <body>
-    <div id="header">
+    <div class="login-header">
 	<p id="appname">LifeJournal</p>
     </div>
     <div id="login-left"><img src="images/IMG_3589.jpg">
     </div>
     <!--<div id="login-right"> Welcome to LifeJournal-->
-	<form>Welcome to LifeJournal
+	<form id="login-form">Welcome to LifeJournal
             <div class="form-element">
                 <input type="email" id="userid" name="userid" placeholder="Email">
             </div>
             <div class="form-element">
-		<input type="password" id="password" name="password" placeholder="Password">                
+		<input type="password" id="textfield" name="password" placeholder="Password">                
             </div>
             <div class="form-element">
                 <button type="submit" id="subbutton">Sign In</button>
             </div>
 	    <div class="form-element">
-                <button type="submit" id="signupbutton">Sign Up</button>
+                <a href="signup.html"><button type="button" id="signupbutton">Sign Up</button></a>
             </div>
         </form>
     <!--</div> -->
-    <div id="footer">About Us</div>
+    <div class="footer">About Us</div>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="/dpd.js"></script>
     <script type="text/javascript" src="script.js"></script>

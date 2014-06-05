@@ -5,14 +5,15 @@
     <script type="text/javascript" src="script.js"></script>
 <html>
 <head>
-    <title>SignUp</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" type="text/css" href="lifejournal.css">
     <br>
 </head>
 <body>
-    <div class="login-header">
+    <div class="login-head">
 	<p id="appname">LifeJournal</p>
     </div>
+    <div id="container">
     <div id="page-left">
         <p>Create a LifeJournal account. Please use the form on the right to register.
         <br>
@@ -20,34 +21,30 @@
             Happy LifeJournaling!!
         </p>
     </div>    
-    <div class="group">
-        <form id="form-signup">
-        <fieldset>
+    <div id="page-right">
+        <form id="signup-form">
+        
             <div class="form-element"> 
-                <label> First Name </label>
-                <input type="text" id="textfield" name="firstname" placeholder="First Name">
+                <input type="text" id="s_fname" name="firstname" placeholder="First Name">
             </div>
             <div class="form-element">
-                <label>Last Name </label>
-                <input type="text" id="textfield" name="lastname" placeholder="Last Name">
+                <input type="text" id="s_lname" name="lastname" placeholder="Last Name">
+            </div>
+            <div class="form-element">    
+                <input type="email" id="s_email" name="email" placeholder="Email">
             </div>
             <div class="form-element">
-                <label>Email </label>        
-                <input type="email" id="textfield" name="email" placeholder="Email">
+                <input type="password" id="s_password" name="password" placeholder="Password">
             </div>
-            <div class="form-element">
-                <label>Password</label>
-                <input type="password" id="textfield" name="password" placeholder="Password">
+            <div class="form-element"> 
+                <input type="password" id="s_cpassword" name="confirmpassword" placeholder="Confirm Password">
             </div>
-            <div class="form-element">
-                <label>Confirm Password</label>
-                <input type="password" id="textfield" name="confirmpassword" placeholder="Confirm Password">
+	    <div class="form-element"> <br>
+                <button type="submit" id="s_signupbutton">Sign Up</button>
             </div>
-	    <div class="form-element">
-                <button type="submit" id="signupbutton">Sign Up</button>
-            </div>
-            </fieldset>
+            
         </form>
+    </div>
     </div>
     
     <div class="footer">About Us</div>
